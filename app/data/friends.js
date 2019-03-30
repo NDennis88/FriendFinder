@@ -1,7 +1,7 @@
 var friendsArray = [
     {
       name:'Roger',
-      photo: '../images/Alien_American Dad.jpg',
+      photo: 'Alien_American Dad.jpg',
       scores: [
         1,
         1,
@@ -17,7 +17,7 @@ var friendsArray = [
     },
     {
       name:'Boomhauer',
-      photo: '../images/boomhauer.jpeg',
+      photo: 'boomhauer.jpeg',
       scores: [
         2,
         3,
@@ -33,7 +33,7 @@ var friendsArray = [
     },
     {
         name:'Carmen San Diego',
-        photo: '../images/CarmenSanDiego.jpeg',
+        photo: 'CarmenSanDiego.jpeg',
         scores: [
           5,
           2,
@@ -48,7 +48,7 @@ var friendsArray = [
     },
     {
         name:'Garnet',
-        photo: '../images/Garnet-Steven_Universe.png',
+        photo: 'Garnet-Steven_Universe.png',
         scores: [
           5,
           3,
@@ -63,7 +63,7 @@ var friendsArray = [
     },
     {
         name:'Huey',
-        photo: '../images/huey_boondocks.jpg',
+        photo: 'huey_boondocks.jpg',
         scores: [
           1,
           2,
@@ -79,7 +79,7 @@ var friendsArray = [
     },
     {
         name:'Johnny Bravo',
-        photo: '../images/johnny bravo.jpg',
+        photo: 'johnny bravo.jpg',
         scores: [
           1,
           5,
@@ -95,7 +95,7 @@ var friendsArray = [
     },
     {
         name:'Ned Flanders',
-        photo: '../images/ned flanders.png',
+        photo: 'ned flanders.png',
         scores: [
           5,
           4,
@@ -111,7 +111,7 @@ var friendsArray = [
     },
     {
         name:'Spinelli',
-        photo: '../images/Spinelli.jpg',
+        photo: 'Spinelli.jpg',
         scores: [
           1,
           2,
@@ -127,7 +127,7 @@ var friendsArray = [
     },
     {
       name:'Static Shock',
-      photo: '../images/static_shock.gif',
+      photo: 'static_shock.gif',
       scores: [
         1,
         2,
@@ -143,7 +143,7 @@ var friendsArray = [
   },
   {
     name:'Tina',
-    photo: '../images/tina.jpg',
+    photo: 'tina.jpg',
     scores: [
       1,
       2,
