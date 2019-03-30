@@ -5,29 +5,40 @@ module.exports = function(app) {
     res.json(friends);
   });
   app.post('/api/friends', function(req,res){
+  var totalDifference = 0;
+  var bestMatch = {
+    name: "",
+    photo: "",
+    friendDifference: 1000
+  };
+
   var userData = req.body;
+  var userName = userData.name;
+  var userScores = userData.scores;
+  var b = userScores.map(function(item) {
+    return parseInt(item, 10);
+  });
+userData = {
+  "name": req.body.name,
+  "photo": req.body.photo,
+  "scores": b 
+}
 
-  var userResponses = userData.scores;
-
-  var matchName = '';
-  var matchImage = '';
-  var totalDifference = 1000;
+var sum = b.reduce((a,b) => a + b, 0);
 
   for(var i = 0; i < friends.length; i++) {
-    var difference = 0;
-    for(var h = 0; h < userResponses.length; h++) {
-      difference += Math.abs(friends[i].scores[h] - userResponses[h]);
-    }
-  if(difference < totalDifference) {
-    totalDifference = difference;
-    matchName = friends[i].name;
-    matchImage = friends[i].photo;
+    totalDifference = 0;
+    var bfriendScore = friends[i].scores.reduce((a, b) => a + b, 0);
+    totalDifference += Math.abs(sum - bfriendScore);
+  if(totalDifference <= bestMatch.friendDifference) {
+    bestMatch.name = friends[i].name;
+    bestMatch.photo = friends[i].photo;
+    bestMatch.friendDifference = totalDifference;
     }
   }
-friends.push(userData);
-
-res.json({status: 'Ok', matchName: matchName, matchImage: matchImage});
-  });
+  friends.push(userData);
+  res.json(bestMatch);
+});
 };
 
 

@@ -1,7 +1,7 @@
 var friendsArray = [
     {
       name:'Roger',
-      photo: 'public/images/Alien_American Dad.jpg',
+      photo: '../images/Alien_American Dad.jpg',
       scores: [
         1,
         1,
@@ -17,7 +17,7 @@ var friendsArray = [
     },
     {
       name:'Boomhauer',
-      photo: 'public/images/boomhauer.jpeg',
+      photo: '../images/boomhauer.jpeg',
       scores: [
         2,
         3,
@@ -33,7 +33,7 @@ var friendsArray = [
     },
     {
         name:'Carmen San Diego',
-        photo: 'public/images/CarmenSanDiego.jpeg',
+        photo: '../images/CarmenSanDiego.jpeg',
         scores: [
           5,
           2,
@@ -48,7 +48,7 @@ var friendsArray = [
     },
     {
         name:'Garnet',
-        photo: 'public/images/Garnet-Steven_Universe.png',
+        photo: '../images/Garnet-Steven_Universe.png',
         scores: [
           5,
           3,
@@ -63,7 +63,7 @@ var friendsArray = [
     },
     {
         name:'Huey',
-        photo: 'public/images/huey_boondocks.jpg',
+        photo: '../images/huey_boondocks.jpg',
         scores: [
           1,
           2,
@@ -79,7 +79,7 @@ var friendsArray = [
     },
     {
         name:'Johnny Bravo',
-        photo: 'public/images/johnny bravo.jpg',
+        photo: '../images/johnny bravo.jpg',
         scores: [
           1,
           5,
@@ -95,7 +95,7 @@ var friendsArray = [
     },
     {
         name:'Ned Flanders',
-        photo: 'public/images/ned flanders.png',
+        photo: '../images/ned flanders.png',
         scores: [
           5,
           4,
@@ -111,7 +111,7 @@ var friendsArray = [
     },
     {
         name:'Spinelli',
-        photo: 'public/images/Spinelli.jpg',
+        photo: '../images/Spinelli.jpg',
         scores: [
           1,
           2,
@@ -127,7 +127,7 @@ var friendsArray = [
     },
     {
       name:'Static Shock',
-      photo: 'public/images/static_shock.gif',
+      photo: '../images/static_shock.gif',
       scores: [
         1,
         2,
@@ -143,7 +143,7 @@ var friendsArray = [
   },
   {
     name:'Tina',
-    photo: 'public/images/tina.jpg',
+    photo: '../images/tina.jpg',
     scores: [
       1,
       2,
