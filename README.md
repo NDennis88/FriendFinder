@@ -7,13 +7,13 @@
  
 
 ## Sample View
-
+Homepage 
 ![Friend Finder Homepage](public/images/homepage.png)
-
+Survey
 ![Friend Finder Survey](public/images/survey.png)
-
+Best Match
 ![Friend Finder Best Match](public/images/bestMatch.png)
-
+API List
 ![Friend Finder API List](public/images/apiList.png)
 
 
